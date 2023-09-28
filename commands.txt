@@ -1,0 +1,32 @@
+1] ls
+
+2] ls -a (shows all hidden directories)
+
+3] ls -a | grep "^\r" (show all files starting with 'r' )
+
+4] ls ???  (files of exactly  3 characters)
+
+5] ls *.doc (shows files with doc extension)
+
+6] ls[a-z]* (shows all files starting from a to z )
+
+7] touch text1.txt 
+	echo "Hello World" > text1.txt
+
+8] touch text2.txt
+	cp text1.txt text2.txt
+
+9]cat text2.txt >> text1.txt
+
+10] find . -maxdepth 1 -type f | wc -l
+
+11]ls -l | tee output.txt
+
+12] sed -n '10,$p' text1
+
+13]who | wc -l
+
+14] touch tmp{1..10}
+	rm -f tmp*
+
+
